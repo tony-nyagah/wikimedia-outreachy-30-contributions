@@ -1,7 +1,6 @@
 import csv
 import requests
 from requests.exceptions import RequestException
-from urllib.parse import urlparse
 
 
 def read_csv_file() -> list:
